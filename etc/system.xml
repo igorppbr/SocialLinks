@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<config>
+	<tabs>
+		<andersonalves translate="label" module="sociallinks">
+			<label>Social Links</label>
+			<sort_order>100</sort_order>
+		</andersonalves>
+	</tabs>
+	
+	<sections>
+		<andersonalves_options translate="label" module="sociallinks">
+			<label>Sharing Options</label>
+			<tab>andersonalves</tab>
+			<sort_order>1000</sort_order>
+			<show_in_default>1</show_in_default>
+			<show_in_website>1</show_in_website>
+			<show_in_store>1</show_in_store>
+
+			<groups>
+				<andersonalves_facebook translate="label" module="sociallinks">
+					<label>Facebook</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>1000</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+
+					<fields>
+						<andersonalves_select translate="label">
+							<label>Enabled</label>
+							<frontend_type>select</frontend_type>
+							<sort_order>20</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+						</andersonalves_select>
+					</fields>
+					<fields>
+						<andersonalves_input translate="label">
+							<label>URL:</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>90</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</andersonalves_input>
+					</fields>
+				</andersonalves_facebook>
+			</groups>
+			<groups>
+				<andersonalves_twitter translate="label" module="sociallinks">
+					<label>Twitter</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>1001</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+
+					<fields>
+						<andersonalves_select translate="label">
+							<label>Enabled</label>
+							<frontend_type>select</frontend_type>
+							<sort_order>20</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+						</andersonalves_select>
+					</fields>
+					<fields>
+						<andersonalves_input translate="label">
+							<label>URL:</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>90</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</andersonalves_input>
+					</fields>
+				</andersonalves_twitter>
+			</groups>
+			<groups>
+				<andersonalves_google translate="label" module="sociallinks">
+					<label>Google+</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>1002</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+
+					<fields>
+						<andersonalves_select translate="label">
+							<label>Enabled</label>
+							<frontend_type>select</frontend_type>
+							<sort_order>20</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+						</andersonalves_select>
+					</fields>
+					<fields>
+						<andersonalves_input translate="label">
+							<label>URL:</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>90</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</andersonalves_input>
+					</fields>
+				</andersonalves_google>
+			</groups>
+		</andersonalves_options>
+	</sections>
+</config>
