@@ -17,11 +17,6 @@
 		</routers>
 	</frontend>
 	<global>
-		<models>
-			<sociallinks>
-				<class>AndersonAlves_SocialLinks_Model</class>
-			</sociallinks>
-		</models>
 		<helpers>
 			<sociallinks>
 				<class>AndersonAlves_SocialLinks_Helper</class>
